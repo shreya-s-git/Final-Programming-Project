@@ -96,7 +96,7 @@ const loadDisk = (disk, config = {}) => {
     }
 
     if (room.name === "Basement") {
-      window.location.href = "/basement-gameover.html";
+      href = "https://github.com/shreya-s-git/Final-Programming-Project/blob/main/basement-gameover.html";
     }
   };
 
