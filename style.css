@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "Road Rage", sans-serif;
+}
+
+body {
+  color: #FCEFDA;
+  background: #31263E;
+  font-size: 32px;
+  font-family: "Road Rage";
+  line-height: 36px;
+  margin: 25px;
+}
+
+#moon {
+  height: 200px;
+  background-image: url("https://cdn.glitch.me/b16bb8c6-444f-4635-8929-96cdc2b7264f%2F462686-middle.png?v=1637546278447");
+  background-repeat: no-repeat;
+  background-position: 7% 25%;
+  background-size: 150px;
+}
+
+h1 {
+  color: #FCEFDA;
+  background: #31263E;
+  font-size: 60px;
+  font-family: "Road Rage";
+  line-height: 56px;
+  text-align: center;
+}
+
+h2 {
+  color: #FCEFDA;
+  background: #31263E;
+  font-size: 20px;
+  font-family: "Special Elite";
+  line-height: 50px;
+  text-align: center;
+}
+
+h3 {
+  color: #FCEFDA;
+  background: #31263E;
+  font-size: 48px;
+  font-family: "Road Rage";
+  line-height: 44px;
+  text-align: center;
+}
+
+#output {
+  width: 1275px;
+  height: 475px;
+  overflow-y: scroll;
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#input {
+  height: 10vh;
+  color: white;
+  background: #44355B;
+  position: fixed;
+  bottom: 0;
+  font-size: 22px;
+  font-family: "Special Elite";
+  width: 1275px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.color-link {
+  padding: 7px 12px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #FCEFDA;
+  color: #31263E;
+  display: inline-block;
+  border-radius: 6px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#startGame {
+  padding: 7px 12px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #31263E;
+  border-radius: 6px;
+  font-size: 40px;
+  font-family: "Road Rage";
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hoverGlow:hover {
+  width: 90px;
+  transition: width 0.25s;
+}
+
+#screen {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#replay {
+  padding: 7px 12px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #FCEFDA;
+  color: #31263E;
+  border-radius: 6px;
+  font-size: 40px;
+  font-family: "Road Rage";
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#stayPut,
+#basement,
+#sideyard,
+#garden {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  text-align: center;
+}
+
+.gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
