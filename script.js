@@ -92,7 +92,7 @@ const loadDisk = (disk, config = {}) => {
     }
 
     if (room.name === "Garden") {
-      window.location.href = "garden-escape.html";
+      window.location.href = "/garden-escape.html";
     }
 
     if (room.name === "Basement") {
