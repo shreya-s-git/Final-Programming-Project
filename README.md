@@ -16,3 +16,5 @@ To play the game andnavigate the haunted house with the goal of escaping after f
 
 
 # More on the code...
+
+We used 3 different programming languages: HTML, JavaScript, and CSS. 
