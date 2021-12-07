@@ -16,7 +16,7 @@ To play the game and navigate the haunted house with the goal of escaping after 
 
 The `index.html` page serves as a visual framework for the opening page and defines the game going forward. It organizes our site so the page can be dynamically updated as the game progresses using the various JavaScript pages and styled using CSS, as it contains references to the JS and CSS files.
 
-The `script.js` file controls the functionality and interactivity of the game. The bulk of "Haunted House Horror" was programmed in the `script.js` file. There were many gameplay features that were made in this file, including the text box input and the user's room navigation history.
+The `script.js` file controls the functionality and interactivity of the game. There were many gameplay features that were made in this file, including the text box input and the user's room navigation history.
 
 The `haunted-house.js` file contains the elements that control the flow of the storyline. The 'start' and 'play again' buttons present in the various HTML files link to this page to start the game and reset it every time a path is finished. When users enter location names in response to the game text, `haunted-house.js` controls the new room names, descriptions, and navigation options that appear.
 
