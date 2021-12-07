@@ -8,7 +8,7 @@ A text-based adventure game created by: Alyssa Fell, Ally McCabe, and Shreya Sub
 
 Try to escape a haunted house!
 
-It was a cold October night and you and your friends decide to enter the haunted house you have heard rumors about for years. It is at the end of Grave Road, a long dead end street with poor lighting. Each time you drive past you are convinced you hear the sounds of bats and the ghost who lives in house 13. There is allegedly gold in house 13, but no one has found it yet. Some people enter and never escape. Do you dare to take this leap?
+It was a cold October night and you and your friends decide to enter the haunted house you have heard rumors about for years. It is at the end of Grave Road, a long dead-end street with poor lighting. Each time you drive past you are convinced you hear the sounds of bats and the ghost who lives in house 13. There is allegedly gold in house 13, but no one has found it yet. Some people enter and never escape. Do you dare to take this leap?
 
 To play the game and navigate the haunted house with the goal of escaping after finding gold, type "Go" with an option that follows (EX: GO basement, GO garden) Be sure to include the hyphen if the location has two words.
 
@@ -18,7 +18,7 @@ The `index.html` page serves as a visual framework for the opening page and defi
 
 The `script.js` file controls the functionality and interactivity of the game. There were many gameplay features that were made in this file, including the text box input and the user's room navigation history.
 
-The `haunted-house.js` file contains the elements that control the flow of the storyline. The 'start' and 'play again' buttons present in the various HTML files link to this page to start the game and reset it every time a path is finished. When users enter location names in response to the game text, `haunted-house.js` controls the new room names, descriptions, and navigation options that appear.
+The `haunted-house.js` file contains the elements that control the flow of the storyline. The 'start' and 'play again' buttons are programmed in this file, and when users enter location names in response to the game text, `haunted-house.js` controls the new room names, descriptions, and navigation options that appear.
 
 The `style.css` file programs the styling of the game including fonts, animations, spacing, and other visual attributes. Key elements that were enhanced by this CSS file include the hovering ghost button, the "Road Rage" font present throughout all screens, and the overarching color scheme.
 
