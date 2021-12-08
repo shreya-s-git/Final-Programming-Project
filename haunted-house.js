@@ -16,7 +16,7 @@ const unlimitedAdventure = {
       desc:
       // provide directions for how to navigate through the game and back story to explain the story of the haunted house
         `DIRECTIONS: Type to navigate through the haunted house with the goal of escaping. Type "Go" with an option that follows (EX: GO basement, GO garden)
-                     Don't forget to include the hyphen!
+                     Don't forget to include the hyphen if the location has two words (EX: Go back-door)!
         
  It was a cold October night and you and your friends decide to enter the haunted house you have heard rumors about for years. It is at the end of Grave Road, a long dead end street with poor lighting. Each time you drive past you are convinced you hear the sounds of bats and the ghost who lives in house 13. There is allegedly gold in house 13, but no one has found it yet. Some people enter and never escape. Do you dare to take this leap?
 
